@@ -1,3 +1,5 @@
+namespace Decorator_Design_Pattern;
+
 public class ColorDecorator : Decorator<string>
 {
     public ColorDecorator(Component_Interface<string> component) : base(component) { }
