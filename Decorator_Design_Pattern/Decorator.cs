@@ -1,10 +1,10 @@
 namespace Decorator_Design_Pattern;
 
-public abstract class Decorator<T> : IComponent<T>
+public abstract class Decorator<T> : Component_Interface<T>
 {
-    protected IComponent<T> component;
+    protected Component_Interface<T> component;
 
-    public Decorator(IComponent<T> component)
+    public Decorator(Component_Interface<T> component) 
     {
         this.component = component;
     }
