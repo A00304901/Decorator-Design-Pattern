@@ -1,6 +1,6 @@
 namespace Decorator_Design_Pattern;
 
-public interface IComponent<T>
+public interface Component_Interface<T>
 {
     T GetText();
 }
